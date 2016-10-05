@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@raw/grand"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/count_t"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@raw/pruplebutton"
+        android:text="@string/count_t"
+        android:textColor="@drawable/Lime" />
+
+    <TextView
+        android:id="@+id/m1405_T005"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/m1405spinner_S001"
+        android:text="ID:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1405_T002"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editID"
+        android:text="@string/tv001"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1405_T003"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editName"
+        android:text="@string/tv002"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/m1405_T004"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editGrp"
+        android:text="@string/tv003"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/editID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/m1405_T005"
+        android:layout_toRightOf="@+id/m1405_T005"
+        android:editable="false"
+        android:ems="10" />
+
+      
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/m1405_T002"
+        android:layout_toRightOf="@+id/m1405_T002"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editGrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/m1405_T003"
+        android:layout_toRightOf="@+id/m1405_T002"
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/editAddr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/m1405_T004"
+        android:layout_alignLeft="@+id/editGrp"
+        android:ems="10" />
+
+    <Spinner
+        android:id="@+id/m1405spinner_S001"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/count_t" />
+
+    <TextView
+        android:id="@+id/now_time"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="@raw/lightbluebutton"
+        android:text="@string/now_time"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="@drawable/Fuchsia" />
+
+</RelativeLayout>

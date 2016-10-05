@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/spnStyle"
+    style="?android:attr/spinnerDropDownItemStyle"
+    android:layout_width="fill_parent"
+    android:layout_height="45dp"
+    android:background="@raw/blackbutton"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:textColor="@drawable/Lime"
+    android:textSize="20sp" >
+
+</TextView>

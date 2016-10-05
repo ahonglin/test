@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">14-21SQLite-mySQLi(auto_import)</string>
+    <string name="action_settings">結束</string>
+    <string name="m1416_t001">訊息</string>
+    <string name="b001">讀Table-friends</string>
+    <string name="b002">讀Table-area</string>
+    <string name="b003">讀member Join area</string>
+    <string name="b00111">111</string>
+
+</resources>

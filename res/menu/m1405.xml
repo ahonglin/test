@@ -1,0 +1,20 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="tcnr6.com.m1405.M1405" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    <item android:id="@+id/m_add" android:title="@string/m_add"></item>
+    <item android:id="@+id/m_query" android:title="@string/m_query"></item>
+    <item android:id="@+id/m_update" android:title="@string/m_update"></item>
+    <item android:id="@+id/m_list" android:title="@string/m_list"></item>
+    <item android:id="@+id/m_clear" android:title="@string/m_clear"></item>
+    <item android:id="@+id/m_addpatch" android:title="@string/m_addpatch"></item>
+    <item android:id="@+id/m_spinner" android:title="@string/m_spinner"></item>
+    <item android:id="@+id/m_1406" android:title="@string/m_1416"></item>
+    <item android:id="@+id/m_import" android:title="@string/m_import"></item>
+
+</menu>

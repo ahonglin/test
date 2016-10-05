@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources><string name="t001">資料表清單</string>
+<string name="m_add">新增</string>
+<string name="m_query">查詢</string>
+<string name="m_update">修改</string>
+<string name="m_delete">刪除</string>
+<string name="btnadd">新增</string>
+<string name="btnquery">查詢</string>
+<string name="btnlist">清單</string>
+<string name="btndel">刪除</string>
+<string name="btnupdate">更新</string>
+<string name="tv001">姓名：</string>
+<string name="tv002">群組：</string>
+<string name="tv003">地址：</string>
+<string name="count_t">共計:</string>
+<string name="m_return">return</string>
+<string name="m_browse">瀏覽</string>
+<string name="m1405_btnBack">上一筆</string>
+<string name="m1405_btnNext">下一筆</string>
+<string name="m_clear">清除</string>
+<string name="m_addpatch">批次新增</string>
+<string name="m_list">資料清單</string>
+<string name="m_spinner">下拉列表</string>
+<string name="m1405_edtList">查詢結果:</string>
+<string name="m_1416">開啟mySQLi</string>
+<string name="m_import">匯入mySQLi資料庫</string>
+<string name="now_time">更新時間:</string>
+    
+</resources>
